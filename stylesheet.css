@@ -5,12 +5,12 @@
 }
 
 body {
-  font-family: Times New Roman, Serif ;
+  font-family: 'Times New Roman', serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4; 
+  background-color: #000; /* Solid black background */
+  color: #fff; /* White text color for contrast */
 }
-
 .container {
   padding: 20px 10%;
   background: transparent;
@@ -22,7 +22,7 @@ body {
 
 .logo {
   font-size: 25px;
-  color: #37474f;
+  color: #E1BEE7;
   text-decoration: none;
   font-weight: 600;
   cursor: default;
@@ -32,7 +32,7 @@ body {
 
 .navbar a {
   font-size: 25px;
-  color: #E1BEE7; 
+  color: #26A69A; 
   text-decoration: none;
   font-weight: 500;
   margin-left: 35px;
@@ -43,7 +43,7 @@ body {
 }
 
 .navbar a:hover {
-  color: #1565c0; 
+  color: #E1BEE7; 
 }
 
 .home {
@@ -85,7 +85,7 @@ body {
   opacity: 0;
   animation: slideBottom 1s ease forwards;
   animation-delay: .7s;
-  color: #E1BEE7; 
+  color: #26A69A; 
   animation: slideRight 1s ease forwards;
   animation-delay: 1s;
 }
@@ -105,10 +105,10 @@ body {
   width: 40px;
   height: 40px;
   background: transparent;
-  border: 2px solid #E1BEE7; 
+  border: 2px solid #26A69A; 
   border-radius: 50%;
   font-size: 20px;
-  color: #E1BEE7; 
+  color: #26A69A; 
   text-decoration: none;
   transition: .5s ease;
   opacity: 0;
@@ -120,7 +120,7 @@ body {
 }
 
 .home-sci a:hover {
-  background: #E1BEE7; 
+  background: #26A69A; 
   color: #ffffff;
   box-shadow: 0 0 20px #1e88e5;
 }
@@ -128,7 +128,7 @@ body {
 .btn-box {
   display: inline-block;
   padding: 12px 28px;
-  background: #E1BEE7; 
+  background: #26A69A; 
   border-radius: 40px;
   font-size: 16px;
   color: #ffffff;
@@ -138,8 +138,8 @@ body {
   opacity: 0;
   animation: slideTop 1s ease forwards;
   animation-delay: 2s;
-  box-shadow: 0 0 5px #E1BEE7,
-  0 0 25px #E1BEE7;
+  box-shadow: 0 0 5px #26A69A,
+  0 0 25px #26A69A;
 }
 
 .btn-box:hover {
