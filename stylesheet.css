@@ -11,27 +11,25 @@ body {
   background-color: #000; /* Solid black background */
   color: #fff; /* White text color for contrast */
 }
-.header
-{
+
+.header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   padding: 20px 10%;
   background: #051129;
-  display: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
 }
+
 .container {
   padding: 20px 10%;
-  background: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 100;
 }
 
 .logo {
@@ -46,18 +44,18 @@ body {
 
 .navbar a {
   font-size: 25px;
-  color: #26A69A; 
+  color: #26A69A;
   text-decoration: none;
   font-weight: 500;
   margin-left: 35px;
   transition: color 0.3s;
   opacity: 0;
-  animation: slideTop .5s ease forwards;
-  animation-delay: calc(.2s*var(--i));
+  animation: slideTop 0.5s ease forwards;
+  animation-delay: calc(0.2s * var(--i));
 }
 
 .navbar a:hover {
-  color: #E1BEE7; 
+  color: #E1BEE7;
 }
 
 .home {
@@ -66,47 +64,39 @@ body {
   height: 100vh;
   background: url('images/new_background.jpeg') no-repeat center center;
   background-size: cover;
-  background-position: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 70px 10% 0;
 }
 
 .home-content {
   max-width: 600px;
-}
-
-.home-content h3:nth-of-type(2) {
-  margin-bottom: 30px;
-  animation: slideTop 1s ease forwards;
-  animation-delay: .7s;
-}
-
-.home-content h3 {
-  color: #37474f; 
-  font-size: 32px;
-  font-weight: 700;
-  opacity: 0;
-  animation: slideBottom 1s ease forwards;
-  animation-delay: .7s;
+  text-align: center;
 }
 
 .home-content h1 {
   font-size: 56px;
   font-weight: 700;
   margin: -3px 0;
+  color: #26A69A;
   opacity: 0;
-  animation: slideBottom 1s ease forwards;
-  animation-delay: .7s;
-  color: #26A69A; 
   animation: slideRight 1s ease forwards;
   animation-delay: 1s;
 }
 
+.home-content h3 {
+  color: #37474f;
+  font-size: 32px;
+  font-weight: 700;
+  opacity: 0;
+  animation: slideBottom 1s ease forwards;
+  animation-delay: 0.7s;
+}
+
 .home-content p {
   font-size: 20px;
-  color: #616161; 
+  color: #616161;
   opacity: 0;
   animation: slideLeft 1s ease forwards;
   animation-delay: 1s;
@@ -119,20 +109,20 @@ body {
   width: 40px;
   height: 40px;
   background: transparent;
-  border: 2px solid #26A69A; 
+  border: 2px solid #26A69A;
   border-radius: 50%;
   font-size: 20px;
-  color: #26A69A; 
+  color: #26A69A;
   text-decoration: none;
-  transition: .5s ease;
+  transition: 0.5s ease;
   opacity: 0;
   animation: slideLeft 1s ease forwards;
-  animation-delay: calc(.2s*var(--i));
+  animation-delay: calc(0.2s * var(--i));
   margin: 30px 15px 30px 0;
 }
 
 .home-sci a:hover {
-  background: #26A69A; 
+  background: #26A69A;
   color: #ffffff;
   box-shadow: 0 0 20px #1e88e5;
 }
@@ -140,7 +130,7 @@ body {
 .btn-box {
   display: inline-block;
   padding: 12px 28px;
-  background: #26A69A; 
+  background: #26A69A;
   border-radius: 40px;
   font-size: 16px;
   color: #ffffff;
@@ -150,124 +140,127 @@ body {
   opacity: 0;
   animation: slideTop 1s ease forwards;
   animation-delay: 2s;
-  box-shadow: 0 0 5px #26A69A,
-  0 0 25px #26A69A;
+  box-shadow: 0 0 5px #26A69A, 0 0 25px #26A69A;
 }
 
 .btn-box:hover {
-  box-shadow: 0 0 5px #E1BEE7,
-              0 0 25px #E1BEE7, 
-              0 0 50px #E1BEE7,
-              0 0 100px #E1BEE7,
-              0 0 200px #E1BEE7;
+  box-shadow: 0 0 5px #E1BEE7, 0 0 25px #E1BEE7, 0 0 50px #E1BEE7, 0 0 100px #E1BEE7, 0 0 200px #E1BEE7;
 }
-.
+
 .about {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 1.5rem;
+  padding: 20px 10%;
 }
-.about-img img{
-  padding-bottom: 20%;
+
+.about-img img {
   max-width: 630px;
   height: auto;
   width: 100%;
   border-radius: 8px;
 }
-.about-text h2{
+
+.about-text h2 {
   font-size: 60px;
 }
-.about-text h2 span{
-  color: #E1BEE71;
+
+.about-text h2 span {
+  color: #E1BEE7;
 }
-.about-text h4{
+
+.about-text h4 {
   font-size: 29px;
   font-weight: 600;
   color: #fff;
   line-height: 1.7;
   margin: 15px 0 30px;
 }
-.about-text p{
+
+.about-text p {
   color: aliceblue;
   font-size: 20px;
   line-height: 1.4;
   margin-bottom: 4rem;
 }
-#services{
+
+#services {
   color: #E1BEE7;
   font-size: 20px;
   line-height: 1.4;
   margin-bottom: 4rem;
 }
-.sub-title{
+
+.sub-title {
   text-align: center;
   font-size: 60px;
   padding-bottom: 70px;
 }
-.sub-title span{
+
+.sub-title span {
   color: #E1BEE7;
 }
-.container{
+
+.container {
   padding: 90px;
 }
-.services-list{
+
+.services-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
   grid-gap: 40px;
   margin-top: 50px;
 }
-.services-list div{
+
+.services-list div {
   background-color: transparent;
   padding: 40px;
   font-size: 13px;
   font-weight: 13px;
-  border-right: 10px;
   border-radius: 20px;
   transition: background 0.5s, transform 0.5s;
-  box-shadow: 1px 1px 20px #E1BEE7,
-              1px 1px 40px #E1BEE7
+  box-shadow: 1px 1px 20px #E1BEE7, 1px 1px 40px #E1BEE7;
 }
-.services-list i{
+
+.services-list i {
   font-size: 50px;
   margin-bottom: 15px;
 }
-.services-list div h2{
+
+.services-list div h2 {
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 15px;
 }
-.services-list div a{
+
+.services-list div a {
   text-decoration: none;
   color: #E1BEE7;
   font-size: 12px;
   margin-top: 20px;
   display: inline-block;
 }
-.read{
+
+.read {
   display: inline-block;
   padding: 12px 28px;
   background: #E1BEE7;
   border-radius: 40px;
   font-size: 16px;
-  color: #E1BEE7;
+  color: #26A69A !important;
   letter-spacing: 1px;
   text-decoration: none;
   font-weight: 600;
-  opacity: 0;
+  opacity: 1;
+  transition: opacity 1s ease, box-shadow 1s ease;
   animation: slideTop 1s ease forwards;
   animation-delay: 2s;
-  box-shadow: 0 0 5px #26A69A,
-  0 0 25px #26A69A;
+  box-shadow: 0 0 5px #26A69A, 0 0 25px #26A69A;
 }
-.read:hover{
-  box-shadow: 0 0 5px #E1BEE7,
-              0 0 25px #E1BEE7, 
-              0 0 50px #E1BEE7,
-              0 0 100px #E1BEE7,
-              0 0 200px #E1BEE7;
-}
-.
+
+.read:hover {
+  box-shadow: 0 0 5px #E1BEE7, 0 0 25px #E1BEE7, 0 0 50px #E1BEE7, 0 0 100px #E1BEE7, 0 0 200px #E1BEE7;
 }
 
 @keyframes slideRight {
@@ -280,6 +273,7 @@ body {
     opacity: 1;
   }
 }
+
 @keyframes slideLeft {
   0% {
     transform: translateX(100px);
@@ -290,6 +284,7 @@ body {
     opacity: 1;
   }
 }
+
 @keyframes slideTop {
   0% {
     transform: translateY(100px);
