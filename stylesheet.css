@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +10,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #000; /* Solid black background */
-  color: #fff; /* White text color for contrast */
+  color: #DAD3BE; /* Updated text color */
 }
 
 .header {
@@ -34,7 +35,7 @@ body {
 
 .logo {
   font-size: 25px;
-  color: #E1BEE7;
+  color: #254336; /* Updated color */
   text-decoration: none;
   font-weight: 600;
   cursor: default;
@@ -44,7 +45,7 @@ body {
 
 .navbar a {
   font-size: 25px;
-  color: #26A69A;
+  color: #6B8A7A; /* Updated color */
   text-decoration: none;
   font-weight: 500;
   margin-left: 35px;
@@ -55,7 +56,7 @@ body {
 }
 
 .navbar a:hover {
-  color: #E1BEE7;
+  color: #254336; /* Updated hover color */
 }
 
 .home {
@@ -79,14 +80,14 @@ body {
   font-size: 56px;
   font-weight: 700;
   margin: -3px 0;
-  color: #26A69A;
+  color: #6B8A7A; /* Updated color */
   opacity: 0;
   animation: slideRight 1s ease forwards;
   animation-delay: 1s;
 }
 
 .home-content h3 {
-  color: #37474f;
+  color: #B7B597; /* Updated color */
   font-size: 32px;
   font-weight: 700;
   opacity: 0;
@@ -96,7 +97,7 @@ body {
 
 .home-content p {
   font-size: 20px;
-  color: #616161;
+  color: #DAD3BE; /* Updated color */
   opacity: 0;
   animation: slideLeft 1s ease forwards;
   animation-delay: 1s;
@@ -109,10 +110,10 @@ body {
   width: 40px;
   height: 40px;
   background: transparent;
-  border: 2px solid #26A69A;
+  border: 2px solid #6B8A7A; /* Updated border color */
   border-radius: 50%;
   font-size: 20px;
-  color: #26A69A;
+  color: #6B8A7A; /* Updated color */
   text-decoration: none;
   transition: 0.5s ease;
   opacity: 0;
@@ -122,7 +123,7 @@ body {
 }
 
 .home-sci a:hover {
-  background: #26A69A;
+  background: #6B8A7A; /* Updated hover background */
   color: #ffffff;
   box-shadow: 0 0 20px #1e88e5;
 }
@@ -130,7 +131,7 @@ body {
 .btn-box {
   display: inline-block;
   padding: 12px 28px;
-  background: #26A69A;
+  background: #6B8A7A; /* Updated background */
   border-radius: 40px;
   font-size: 16px;
   color: #ffffff;
@@ -140,11 +141,11 @@ body {
   opacity: 0;
   animation: slideTop 1s ease forwards;
   animation-delay: 2s;
-  box-shadow: 0 0 5px #26A69A, 0 0 25px #26A69A;
+  box-shadow: 0 0 5px #6B8A7A, 0 0 25px #6B8A7A; /* Updated box shadow */
 }
 
 .btn-box:hover {
-  box-shadow: 0 0 5px #E1BEE7, 0 0 25px #E1BEE7, 0 0 50px #E1BEE7, 0 0 100px #E1BEE7, 0 0 200px #E1BEE7;
+  box-shadow: 0 0 5px #254336, 0 0 25px #254336, 0 0 50px #254336, 0 0 100px #254336, 0 0 200px #254336; /* Updated hover box shadow */
 }
 
 .about {
@@ -167,26 +168,26 @@ body {
 }
 
 .about-text h2 span {
-  color: #E1BEE7;
+  color: #254336; /* Updated color */
 }
 
 .about-text h4 {
   font-size: 29px;
   font-weight: 600;
-  color: #fff;
+  color: #DAD3BE; /* Updated color */
   line-height: 1.7;
   margin: 15px 0 30px;
 }
 
 .about-text p {
-  color: aliceblue;
+  color: #DAD3BE; /* Updated color */
   font-size: 20px;
   line-height: 1.4;
   margin-bottom: 4rem;
 }
 
 #services {
-  color: #E1BEE7;
+  color: #DAD3BE; /* Updated color */
   font-size: 20px;
   line-height: 1.4;
   margin-bottom: 4rem;
@@ -199,7 +200,7 @@ body {
 }
 
 .sub-title span {
-  color: #E1BEE7;
+  color: #254336; /* Updated color */
 }
 
 .container {
@@ -220,7 +221,7 @@ body {
   font-weight: 13px;
   border-radius: 20px;
   transition: background 0.5s, transform 0.5s;
-  box-shadow: 1px 1px 20px #E1BEE7, 1px 1px 40px #E1BEE7;
+  box-shadow: 1px 1px 20px #6B8A7A, 1px 1px 40px #6B8A7A; /* Updated box shadow */
 }
 
 .services-list i {
@@ -232,11 +233,12 @@ body {
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 15px;
+  color: #6B8A7A; /* Updated color */
 }
 
 .services-list div a {
   text-decoration: none;
-  color: #E1BEE7;
+  color: #6B8A7A; /* Updated color */
   font-size: 12px;
   margin-top: 20px;
   display: inline-block;
@@ -245,7 +247,7 @@ body {
 .read {
   display: inline-block;
   padding: 12px 28px;
-  background: #26A69A;
+  background: #254336; /* Updated background */
   border-radius: 40px;
   font-size: 16px;
   color: #000000 !important;
@@ -256,11 +258,11 @@ body {
   transition: opacity 1s ease, box-shadow 1s ease;
   animation: slideTop 1s ease forwards;
   animation-delay: 2s;
-  box-shadow: 0 0 5px #E1BEE7, 0 0 25px #E1BEE7;
+  box-shadow: 0 0 5px #6B8A7A, 0 0 25px #6B8A7A; /* Updated box shadow */
 }
 
 .read:hover {
-  box-shadow: 0 0 5px #E1BEE7, 0 0 25px #E1BEE7, 0 0 50px #E1BEE7, 0 0 100px #E1BEE7, 0 0 200px #E1BEE7;
+  box-shadow: 0 0 5px #6B8A7A, 0 0 25px #6B8A7A, 0 0 50px #6B8A7A, 0 0 100px #6B8A7A, 0 0 200px #6B8A7A; /* Updated hover box shadow */
 }
 
 @keyframes slideRight {
@@ -288,7 +290,9 @@ body {
 @keyframes slideTop {
   0% {
     transform: translateY(100px);
-    opacity: 0;
+    opacity: 
+
+0;
   }
   100% {
     transform: translateY(0);
