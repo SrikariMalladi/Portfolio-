@@ -631,3 +631,80 @@ section {
     transform: translateY(0);
   }
 }
+
+
+
+
+
+
+create database batch10;
+show databases;
+use batch10;
+create table product(
+product_id varchar(10) not null primary key,
+product_name varchar(100) not null,
+category varchar(100) not null,
+sub_category varchar(100) not null,
+original_price double not null,
+selling_price double not null,
+stock int not null);
+select * from product;
+describe product;
+create table customer(
+customer_id varchar(10) not null primary key,
+name varchar(56) not null,
+city varchar(50) not null,
+email varchar(45) not null,
+phone_no varchar(15) not null,
+address varchar(100) not null,
+pin_code int not null);
+
+
+create table order_details(
+order_id int(10) not null primary key,
+customer_id varchar(10) not null,
+product_id varchar(10) not null,
+quantity double not null,
+total_price double not null,
+payment_mode varchar(50) not null,
+order_date datetime NOT NULL,
+order_stateus varchar(25) not null,
+foreign key(customer_id) references customer(customer_id),
+foreign key(product_id) references product(product_id)
+);
+
+desc order_details;
+
+insert into product(product_id,product_name,category,sub_category, original_price,selling_price,stock)values('P101','Telivision','Electronics','phone',70000,55000,100),
+('P102','Chair','Furniture','chairs',4500,8500,5);
+
+select * from product;
+
+insert into customer(customer_id,name,city,email,phone_no,address,pin_code)values('C1001','Steve','Tokyo','steve@gmail.com','8617585773','f.g road', 721306), ('C1002','john', 'Sydney', 'john@gmail.com','9391397567','n.c. road', 700127);
+
+select * from customer;
+
+insert into order_details(order_id,customer_id,product_id,quantity,total_price,payment_mode,order_date,order_stateus)values('1','C1002','P101',1,55000,'COD','2023-11-19','shipped'),('2','C1001','P101',1,55000,'COD','2023-10-30','delivered');
+select * from order_details;
+desc order_details;
+
+select * from customer where name like 'j%';
+select * from customer where name like 's%';
+select * from customer where name like '%ev%';
+select * from customer where city like '_o%';
+
+select * from product where product_id='P101';
+select * from product where product_id='P102';
+select * from order_details where order_stateus='shipped';
+select * from order_details where order_stateus='delivered';
+update customer set email='johnydoeeeee@gmail.com' where customer_id='C1002';
+select * from customer;
+delete from customer where customer_id='C1002';
+select * from customer limit 1;
+select distinct city from customer;
+select * from product where original_price>30000;
+
+update order_details set total_price=total_price+4000 where order_id=1;
+update order_details set total_price=70000 where order_id=2;
+
+select * from order_details;
