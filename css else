@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">My Portfolio</a>
+      <nav class="navbar">
+        <a href="#" style="--i:1" class="active">Home</a>
+        <a href="#about" style="--i:2">About</a>
+        <a href="#skills" style="--i:3">Skills</a>
+        <a href="#portfolio" style="--i:4">Portfolio</a>
+        <a href="#contact" style="--i:5">Contact</a>
+      </nav>
+    </div>
+  </header>
+  
+  <section class="home">
+    <div class="home-content">
+      <h3>Hello, it's Me</h3>
+      <h1>Venkata Srikari Malladi</h1>
+      <h3>Welcome to My Portfolio And I'm a <span class="text"></span></h3>
+      <p>I'm a Data Analyst with 9 months of experience. My expertise is in dealing with data techniques and models.</p>
+      <div class="home-sci">
+        <a href="#" style="--i:6"><i class='bx bxl-instagram'></i></a>
+        <a href="#" style="--i:7"><i class='bx bxl-whatsapp'></i></a>
+        <a href="#" style="--i:8"><i class='bx bxl-linkedin'></i></a>
+        <a href="#" style="--i:9"><i class='bx bxl-gmail'></i></a>
+        <a href="#" style="--i:10"><i class='bx bxl-github'></i></a>
+      </div>
+      <a href="#about" class="btn-box">More About Me</a>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="https://drive.google.com/uc?export=view&id=1tldXcdlPpJKa3Fh2LWIt2_fhlbeTWgXM" alt="About image">
+    </div>
+    <div class="about-content">
+      <h2>About <span>Me</span></h2>
+      <h4>Information</h4>
+      <p>A BTech student who is interested in real-time problem solving and coding. Proficient in Java, Python, C++, C, Machine Learning, and a keen interest in data science. Motivated and dedicated to continual self-improvement, I participate in self-learning as well as collaborative efforts with peers and mentors to better my skills and knowledge.</p>
+      <a href="#" class="btn-box">More</a>
+    </div>
+  </section>
+  
+  <section class="services" id="services">
+    <div class="container">
+      <h1 class="sub-title">My <span>Services</span></h1>
+      <div class="services-list">
+        <div>
+          <i class='bx bxs-medal'></i>
+          <h2>AIML Internship</h2>
+          <p>Contributed in exploring datasets and applying fundamental machine learning algorithms for trend prediction. Gained valuable insights into practical applications of basic ML algorithms in data analysis.</p>
+          <a href="#" class="read">Learn more</a>
+        </div>  
+        <div>
+          <i class='bx bxs-medal'></i>
+          <h2>Data Science Internship</h2>
+          <p>Training-based internship for a duration of 3 months where Machine Learning models and Data Preprocessing techniques were the highlighted topics. Used different techniques to reduce the number of columns of the Microarray datasets with the help of feature engineering techniques.</p>
+          <a href="#" class="read">Learn more</a>
+        </div>
+        <div>
+          <i class='bx bxs-medal'></i>
+          <h2>Artificial Intelligence Job Simulation</h2>
+          <p>Training-based internship for a duration of 3 months where Machine Learning models and Data Science models which some AI methods techniques were the highlighted topics. Used different techniques like Exploratory Data Analysis, Data Modelling, Model Building, and Interpretation Machine Learning Production Quality Assurance datasets.</p>
+          <a href="#" class="read">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="skills">
+    <h1 class="sub-title">My <span>Skills</span></h1>  
+    <div class="container1">
+      <h1 class="heading1">Technical Skills</h1>
+      <div class="Technical-bars">
+        <div class="bar"><i class='bx bxl-html5' style='color:#FF6F00'  ></i>
+          <div class="info">
+            <span>HTML</span>
+          </div>
+          <div class="progress-line html">
+            <span></span>
+          </div>
+        </div> 
+        <div class="bar"><i class='bx bxl-css3' style='color: #40C4FF;'></i>
+          <div class="info">
+            <span>CSS</span>
+          </div>
+          <div class="progress-line css">
+            <span></span>
+          </div> 
+        </div>
+        <div class="bar"><i class='bx bxl-javascript' style='color: #FFC300;'></i>
+          <div class="info">
+            <span>JavaScript</span>
+          </div>
+          <div class="progress-line javascript">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar"><i class='bx bxl-python' style='color: #9C27B0;'></i>
+          <div class="info">
+            <span>Python</span>
+          </div>
+          <div class="progress-line python">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar"><i class='bx bxl-react' style='color: #4DD0E1;'></i>
+          <div class="info">
+            <span>React</span>
+          </div>
+          <div class="progress-line react">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container1">
+  <h1 class="heading1">Professional Skills</h1>
+  <div class="radial-bars">
+    <svg x="0px" y="0px" viewBox="0 0 150 150">
+      <circle class="progress-bar" cx="75" cy="75" r="60"></circle>
+      <circle class="path path-1" cx="75" cy="75" r="60"></circle>
+    </svg>
+    <div class="percentage">90%</div>
+    <div class="text">Creativity</div>
+  </div>
+  <div class="radial-bars">
+    <svg x="0px" y="0px" viewBox="0 0 150 150">
+      <circle class="progress-bar" cx="75" cy="75" r="60"></circle>
+      <circle class="path path-1" cx="75" cy="75" r="60"></circle>
+    </svg>
+    <div class="percentage">75%</div>
+    <div class="text">Problem Solving</div>
+  </div>
+  <div class="radial-bars">
+    <svg x="0px" y="0px" viewBox="0 0 150 150">
+      <circle class="progress-bar" cx="75" cy="75" r="60"></circle>
+      <circle class="path path-1" cx="75" cy="75" r="60"></circle>
+    </svg>
+    <div class="percentage">85%</div>
+    <div class="text">Communication</div>
+  </div>
+  <div class="radial-bars">
+    <svg x="0px" y="0px" viewBox="0 0 150 150">
+      <circle class="progress-bar" cx="75" cy="75" r="60"></circle>
+      <circle class="path path-1" cx="75" cy="75" r="60"></circle>
+    </svg>
+    <div class="percentage">85%</div>
+    <div class="text">Teamwork</div>
+  </div>
+</div>
+    </div>
+  </section>
+  
+  <script src="main.js"></script>
+  <script>
+  
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #455A64;
+  color: #DAD3BE;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: #051129;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.container {
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 25px;
+  color: #254336;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: default;
+  opacity: 0;
+  animation: slideRight 1s ease forwards;
+}
+
+.navbar a {
+  font-size: 25px;
+  color: #6B8A7A;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: color 0.3s;
+  opacity: 0;
+  animation: slideTop 0.5s ease forwards;
+  animation-delay: calc(0.2s * var(--i));
+}
+
+.navbar a:hover {
+  color: #254336;
+}
+
+.home {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url('images/new_background.jpeg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 10% 0;
+}
+
+.home-content {
+  max-width: 600px;
+  text-align: center;
+}
+
+.home-content h1 {
+  font-size: 56px;
+  font-weight: 700;
+  margin: -3px 0;
+  color: #6B8A7A;
+  opacity: 0;
+  animation: slideRight 1s ease forwards;
+  animation-delay: 1s;
+}
+
+.home-content h3 {
+  color: #B7B597;
+  font-size: 32px;
+  font-weight: 700;
+  opacity: 0;
+  animation: slideBottom 1s ease forwards;
+  animation-delay: 0.7s;
+}
+
+.home-content p {
+  font-size: 20px;
+  color: #DAD3BE;
+  opacity: 0;
+  animation: slideLeft 1s ease forwards;
+  animation-delay: 1s;
+}
+
+.home-sci a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #6B8A7A;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #6B8A7A;
+  text-decoration: none;
+  transition: 0.5s ease;
+  opacity: 0;
+  animation: slideLeft 1s ease forwards;
+  animation-delay: calc(0.2s * var(--i));
+  margin: 30px 15px 30px 0;
+}
+
+.home-sci a:hover {
+  background: #6B8A7A;
+  color: #ffffff;
+  box-shadow: 0 0 20px #1e88e5;
+}
+
+.btn-box {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #6B8A7A;
+  border-radius: 40px;
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+  opacity: 0;
+  animation: slideTop 1s ease forwards;
+  animation-delay: 2s;
+  box-shadow: 0 0 5px #6B8A7A, 0 0 25px #6B8A7A;
+}
+
+.btn-box:hover {
+  box-shadow: 0 0 5px #254336, 0 0 25px #254336, 0 0 50px #254336, 0 0 100px #254336, 0 0 200px #254336;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1.5rem;
+  padding: 20px 10%;
+}
+
+.about-img img {
+  max-width: 630px;
+  height: auto;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.about-text h2 {
+  font-size: 60px;
+}
+
+.about-text h2 span {
+  color: #254336;
+}
+
+.about-text h4 {
+  font-size: 29px;
+  font-weight: 600;
+  color: #DAD3BE;
+  line-height: 1.7;
+  margin: 15px 0 30px;
+}
+
+.about-text p {
+  color: #DAD3BE;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 4rem;
+}
+
+#services {
+  color: #DAD3BE;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 4rem;
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 60px;
+  padding-bottom: 70px;
+}
+
+.sub-title span {
+  color: #254336;
+}
+
+.container {
+  padding: 90px;
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+
+.services-list div {
+  background-color: transparent;
+  padding: 40px;
+  font-size: 13px;
+  font-weight: 13px;
+  border-radius: 20px;
+  transition: background 0.5s, transform 0.5s;
+  box-shadow: 1px 1px 20px #6B8A7A, 1px 1px 40px #6B8A7A;
+}
+
+.services-list i {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.services-list div h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #6B8A7A;
+}
+
+.services-list div a {
+  text-decoration: none;
+  color: #6B8A7A;
+  font-size: 12px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.read {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #254336;
+  border-radius: 40px;
+  font-size: 16px;
+  color: #000000 !important;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+  opacity: 1;
+  transition: opacity 1s ease, box-shadow 1s ease;
+  animation: slideTop 1s ease forwards;
+  animation-delay: 2s;
+  box-shadow: 0 0 5px #6B8A7A, 0 0 25px #6B8A7A;
+}
+
+.read:hover {
+  box-shadow: 0 0 5px #6B8A7A, 0 0 25px #6B8A7A, 0 0 50px #6B8A7A, 0 0 100px #6B8A7A, 0 0 200px #6B8A7A;
+}
+
+.services-list div:hover {
+  transform: translateY(-10px);
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container1 {
+  width: 600px;
+  height: 500px;
+  padding: 75px 90px;
+  margin-bottom: 120px;
+}
+
+.heading1 {
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 5px;
+  margin-bottom: 50px;
+}
+
+.bar {
+  font-size: 23px;
+}
+
+.Technical-bars .bars {
+  margin-top: 40px;
+}
+
+.Technical-bars .bar:first-child {
+  margin-top: 40px;
+}
+
+.Technical-bars .bar:last-child {
+  margin-bottom: 5px;
+}
+
+.Technical-bars .bar .info {
+  font-family: 'Times New Roman', serif;
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: space-between;
+  font-weight: 500;
+  padding: 1px;
+}
+
+.Technical-bars .bar .info span {
+  font-size: 20px;
+}
+
+.progress-line {
+  position: relative;
+  height: 10px;
+  width: 100%;
+  background-color: #f0f0f0;
+  display: block;
+  border-radius: 10px;
+}
+
+.progress-line span {
+  height: 100%;
+  position: relative;
+  display: block;
+  border-radius: 10px;
+}
+
+.progress-line.html span {
+  width: 87%;
+  background: #254336;
+}
+
+.progress-line.css span {
+  width: 80%;
+  background: #6B8A7A;
+}
+
+.progress-line.javascript span {
+  width: 65%;
+  background: #839b97;
+}
+
+.progress-line.react span {
+  width: 50%;
+  background: #B7B597;
+}
+
+.progress-line.sass span {
+  width: 70%;
+  background: #9ABCA7;
+}
+
+.progress-line span::before {
+  position: absolute;
+  content: '';
+  top: -10px;
+  right: 0;
+  height: 0;
+  width: 0;
+  border: 5px solid transparent;
+  border-bottom-width: 10px;
+  border-right-width: 0;
+  border-top-color: inherit;
+  border-left-color: inherit;
+}
+
+.progress-line span::after {
+  position: absolute;
+  color: #000000;
+  top: -28px;
+  right: -10px;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.progress-line.html span::after {
+  content: '87%';
+}
+
+.progress-line.css span::after {
+  content: '80%';
+}
+
+.progress-line.javascript span::after {
+  content: '65%';
+}
+
+.progress-line.react span::after {
+  content: '50%';
+}
+
+.progress-line.sass span::after {
+  content: '70%';
+}
+
+.copyrightText {
+  text-align: center;
+  color: #000000;
+  padding: 10px;
+  background: #DAD3BE;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@keyframes slideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideTop {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
