@@ -291,9 +291,19 @@ section {
 .bar {
   font-size: 23px;
 }
+.bar .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
 
+.bar .info .percentage {
+  font-size: 12px;
+  color: #fff; /* or any color that stands out */
+}
 .Technical-bars .bars {
-  margin-top: 40px;
+  margin-top: 40px 0;
 }
 
 .Technical-bars .bar:first-child {
@@ -338,6 +348,54 @@ section {
   transform: scaleX(0);
   transform-origin: left;
 }
+.Technical-bars {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.bar {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.bar i {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.bar .info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.bar .info span {
+  font-size: 14px;
+  color: #fff;
+}
+
+.bar .info .percentage {
+  font-size: 12px;
+  color: #fff; 
+}
+
+.progress-line {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  background: #444;
+}
+
+.progress-line span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #fff; 
+}
 
 .progress-line.html span {
   width: 90%;
@@ -348,7 +406,7 @@ section {
 }
 
 .progress-line.javascript span {
-  width: 85%;
+  width: 80%;
 }
 
 .progress-line.python span {
@@ -380,7 +438,7 @@ section {
   content: '90%';
 }
 .progress-line.javascript span::after{
-  content: '85%';
+  content: '90%';
 }
 .progress-line.python span::after{
   content: '90%';
@@ -430,7 +488,7 @@ section {
 }
 .radial-bars .radial-bar .progress-bar{
   stroke-width: 10;
-  stop-color: #1e88e5;
+  stop-color: #000000;
   fill: transparent;
   stroke-dasharray: 502;
   stroke-dashoffset: 502;
@@ -475,8 +533,8 @@ section {
 }
 .radial-bar .percentage{
   position: absolute;
-  top: 50;
-  left: 50;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   font-size: 17px;
   font-weight: 500;
