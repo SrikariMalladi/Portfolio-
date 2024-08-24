@@ -8,8 +8,11 @@ body {
   font-family: 'Times New Roman', serif;
   margin: 0;
   padding: 0;
-  background-color: #455A64;
-  color: #DAD3BE;
+  background: linear-gradient(135deg, #f9f9f9, #f5dcdc,, #d4f8d4, #d1f5f5);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+  color: #070000;
+  background-color: #ffffff;
 }
 
 .header {
@@ -18,7 +21,7 @@ body {
   left: 0;
   width: 100%;
   padding: 20px 10%;
-  background: #051129;
+  background: #f7fafa;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,7 +37,7 @@ body {
 
 .logo {
   font-size: 25px;
-  color: #254336;
+  color: #010e0c;
   text-decoration: none;
   font-weight: 600;
   cursor: default;
@@ -44,7 +47,7 @@ body {
 
 .navbar a {
   font-size: 25px;
-  color: #6B8A7A;
+  color: #0d000a;
   text-decoration: none;
   font-weight: 500;
   margin-left: 35px;
@@ -55,7 +58,7 @@ body {
 }
 
 .navbar a:hover {
-  color: #254336;
+  color: #03f6f6;
 }
 
 .home {
@@ -79,14 +82,14 @@ body {
   font-size: 56px;
   font-weight: 700;
   margin: -3px 0;
-  color: #6B8A7A;
+  color: #110006;
   opacity: 0;
   animation: slideRight 1s ease forwards;
   animation-delay: 1s;
 }
 
 .home-content h3 {
-  color: #B7B597;
+  color: #ff0707;
   font-size: 32px;
   font-weight: 700;
   opacity: 0;
@@ -96,7 +99,7 @@ body {
 
 .home-content p {
   font-size: 20px;
-  color: #DAD3BE;
+  color: #090005;
   opacity: 0;
   animation: slideLeft 1s ease forwards;
   animation-delay: 1s;
@@ -109,10 +112,10 @@ body {
   width: 40px;
   height: 40px;
   background: transparent;
-  border: 2px solid #6B8A7A;
+  border: 2px solid #100000;
   border-radius: 50%;
   font-size: 20px;
-  color: #6B8A7A;
+  color: #110006;
   text-decoration: none;
   transition: 0.5s ease;
   opacity: 0;
@@ -122,29 +125,29 @@ body {
 }
 
 .home-sci a:hover {
-  background: #6B8A7A;
-  color: #ffffff;
-  box-shadow: 0 0 20px #1e88e5;
+  background: #0e0004;
+  color: #f90e0e;
+  box-shadow: 0 0 20px #0b0004;
 }
 
 .btn-box {
   display: inline-block;
   padding: 12px 28px;
-  background: #6B8A7A;
+  background: #0f0005;
   border-radius: 40px;
   font-size: 16px;
-  color: #ffffff;
+  color: #f11414;
   letter-spacing: 1px;
   text-decoration: none;
   font-weight: 600;
   opacity: 0;
   animation: slideTop 1s ease forwards;
   animation-delay: 2s;
-  box-shadow: 0 0 5px #6B8A7A, 0 0 25px #6B8A7A;
+  box-shadow: 0 0 5px #100005, 0 0 25px #0f0005;
 }
 
 .btn-box:hover {
-  box-shadow: 0 0 5px #254336, 0 0 25px #254336, 0 0 50px #254336, 0 0 100px #254336, 0 0 200px #254336;
+  box-shadow: 0 0 5px #0b0004, 0 0 25px #0a0004, 0 0 50px #120007, 0 0 100px #100006, 0 0 200px #0f0006;
 }
 
 .about {
@@ -167,26 +170,26 @@ body {
 }
 
 .about-text h2 span {
-  color: #254336;
+  color: #111111;
 }
 
 .about-text h4 {
   font-size: 29px;
   font-weight: 600;
-  color: #DAD3BE;
+  color: #0b0006;
   line-height: 1.7;
   margin: 15px 0 30px;
 }
 
 .about-text p {
-  color: #DAD3BE;
+  color: #f82d09;
   font-size: 20px;
   line-height: 1.4;
   margin-bottom: 4rem;
 }
 
 #services {
-  color: #DAD3BE;
+  color: #0e0200;
   font-size: 20px;
   line-height: 1.4;
   margin-bottom: 4rem;
@@ -199,7 +202,7 @@ body {
 }
 
 .sub-title span {
-  color: #254336;
+  color: #111111;
 }
 
 .container {
@@ -220,7 +223,7 @@ body {
   font-weight: 13px;
   border-radius: 20px;
   transition: background 0.5s, transform 0.5s;
-  box-shadow: 1px 1px 20px #6B8A7A, 1px 1px 40px #6B8A7A;
+  box-shadow: 1px 1px 20px #131313, 1px 1px 40px #141414;
 }
 
 .services-list i {
@@ -232,12 +235,12 @@ body {
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 15px;
-  color: #6B8A7A;
+  color: #4b0802;
 }
 
 .services-list div a {
   text-decoration: none;
-  color: #6B8A7A;
+  color: #4b0802;
   font-size: 12px;
   margin-top: 20px;
   display: inline-block;
@@ -246,10 +249,10 @@ body {
 .read {
   display: inline-block;
   padding: 12px 28px;
-  background: #254336;
+  background: #4b0802;
   border-radius: 40px;
   font-size: 16px;
-  color: #000000 !important;
+  color: #f9f5f5 !important;
   letter-spacing: 1px;
   text-decoration: none;
   font-weight: 600;
@@ -257,11 +260,11 @@ body {
   transition: opacity 1s ease, box-shadow 1s ease;
   animation: slideTop 1s ease forwards;
   animation-delay: 2s;
-  box-shadow: 0 0 5px #6B8A7A, 0 0 25px #6B8A7A;
+  box-shadow: 0 0 5px #4b0802, 0 0 25px #4b0802;
 }
 
 .read:hover {
-  box-shadow: 0 0 5px #6B8A7A, 0 0 25px #6B8A7A, 0 0 50px #6B8A7A, 0 0 100px #6B8A7A, 0 0 200px #6B8A7A;
+  box-shadow: 0 0 5px #4b0802, 0 0 25px #4b0802, 0 0 50px #4b0802, 0 0 100px #4b0802, 0 0 200px #4b0802;
 }
 
 .services-list div:hover {
@@ -300,7 +303,7 @@ section {
 
 .bar .info .percentage {
   font-size: 12px;
-  color: #fff; /* or any color that stands out */
+  color: #080000; /* or any color that stands out */
 }
 .Technical-bars .bars {
   margin-top: 40px 0;
@@ -327,7 +330,7 @@ section {
   border-radius: 10px;
   width: 100%;
   height: 5px;
-  background-color: #000000;
+  background-color: #080800;
   animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
   transform: scaleX(0);
   transform-origin: left;
@@ -341,7 +344,7 @@ section {
 
 .Technical-bars .bar .progress-line span {
   height: 100%;
-  background-color: #6B8A7A;
+  background-color: #f10909;
   position: absolute;
   border-radius: 10px;
   animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
@@ -374,19 +377,19 @@ section {
 
 .bar .info span {
   font-size: 14px;
-  color: #fff;
+  color: #0f0000;
 }
 
 .bar .info .percentage {
   font-size: 12px;
-  color: #fff; 
+  color: #100202; 
 }
 
 .progress-line {
   position: relative;
   width: 100%;
   height: 5px;
-  background: #444;
+  background: #0c0000;
 }
 
 .progress-line span {
@@ -394,7 +397,7 @@ section {
   top: 0;
   left: 0;
   height: 100%;
-  background: #fff; 
+  background: #420202; 
 }
 
 .progress-line.html span {
@@ -446,72 +449,18 @@ section {
 .progress-line.react span::after{
   content: '75%';
 }
-.progress-line span::before{
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 0;
-  border: 7px solid transparent;
-  border-bottom-width: 0px;
-  border-right-width: 0px;
-  border-top-color: #000000;
-  top: -10px;
-  right: 0;
-  animation: showText 0.5s 1.5s linear forwards;
-  opacity: 0;
-}
+
 @keyframes showText{
   100%{
     opacity: 1;
   }
 }
-.radial-bars{
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: flex-start;
-}
-.radial-bars .radial-bar{
-  width: 50%;
-  height: 170%;
-  margin-bottom: 10px;
-  position: relative;
-}
-.radial-bars .radial-bar svg{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(-90deg);
-  width: 120px;
-  height: 160px;
-}
-.radial-bars .radial-bar .progress-bar{
-  stroke-width: 10;
-  stop-color: #000000;
-  fill: transparent;
-  stroke-dasharray: 502;
-  stroke-dashoffset: 502;
-  stroke-linecap: round;
-  animation: animate-bar 1s linear forwards;
 
-}
 @keyframes animate-bar{
   100%{
     stroke-dashoffset: -1;
   }
 }
-.path{
-  stroke-width: 10;
-  stroke: #254336;
-  fill: transparent;
-  stroke-dasharray: 502;
-  stroke-linecap: round;
-}
-.path-1{animation: animate-path1 1s 1s linear forwards}
-.path-2{animation: animate-path2 1s 1s linear forwards}
-.path-3{animation: animate-path3 1s 1s linear forwards}
-.path-4{animation: animate-path4 1s 1s linear forwards}
 
 @keyframes animate-path1{
   100%{
@@ -531,30 +480,6 @@ section {
     stroke-dashoffset: 75;
   }
 }
-.radial-bar .percentage{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 17px;
-  font-weight: 500;
-  animation: showText 0.5s 1s linear forwards;
-  opacity: 0;
-}
-.radial-bar .text{
-  width: 100%;
-  position: absolute;
-  text-align: center;
-  left: 50%;
-  bottom: -5px;
-  transform: translate(-50px);
-  font-size: 17px;
-  font-weight: 500;
-  animation: showText 0.5s 1s linear forwards;
-  opacity: 0;
-  
-}
-
 .main-text{
   padding: 130px;
   margin: 200px;
@@ -565,7 +490,7 @@ section {
   text-align: center;
 }
 .main-text h2 span{
-  color: #B7B597;
+  color: #090901;
 }
 .portfolio-content{
   display: grid;
@@ -650,7 +575,7 @@ section {
   }
   100% {
     transform: translateY(0);
-    opacity: 1;
+    opacity: 1;     
   }
 }
 
