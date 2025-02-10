@@ -185,12 +185,16 @@ footer {
   gap: 1.5rem;
   padding: 20px 10%;
 }
+.about-img {
+  flex: 1 1 300px; /* Makes items flexible with a minimum width of 300px */
+  max-width: 400px; /* Prevents items from getting too large */
+  text-align: center; /* Centers content */
+}
 
-.about-img img {
-  max-width: 630px;
-  height: auto;
+.about-img {
   width: 100%;
-  border-radius: 8px;
+  height: auto;
+  border-radius: 10px;
 }
 
 .about-text h2 {
@@ -399,7 +403,24 @@ footer {
   vertical-align: middle;
   color: #DFBBCA;
 }
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adds spacing between projects */
+  justify-content: center; /* Aligns projects in the center */
+}
 
+.project-item {
+  flex: 1 1 300px; /* Makes items flexible with a minimum width of 300px */
+  max-width: 400px; /* Prevents items from getting too large */
+  text-align: center; /* Centers content */
+}
+
+.project-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
 
 @keyframes fadeInLogo {
   0% { opacity: 0; transform: translateX(-100px); }
